@@ -3,7 +3,6 @@
 node_modules/fast-glob/node_modules/glob-parent/LICENSE
 *.ts
 *.json
-*.js
 node_modules/sucrase/bin/sucrase-node
 *.map
 node_modules/wrap-ansi-cjs/node_modules/ansi-styles/license

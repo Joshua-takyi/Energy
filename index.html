@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./src/css/tailwind.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
+	</head>
+	<body>
+		<main id="main" class="font-roboto bg-head-fade">
+			<nav
+				class="container mx-auto p-2 mb-8 md:mb-1 flex flex-row justify-between items-center"
+			>
+				<!-- !logo -->
+				<div class="logo py-2">
+					<p class="font-semibold text-skin-text">
+						<span class="text-skin-head font-bold text-2xl ps-2">E</span>nergy
+					</p>
+				</div>
+				<!-- !nav links -->
+				<div class="links flex flex-row space-x-4 text-skin-text items-center">
+					<a href="#">Home</a>
+					<a href="#">Supply</a>
+					<a href="#">Contacts</a>
+				</div>
+				<!-- ! call to action -->
+				<button
+					class="px-2 py-3 rounded-sm bg-skin-background font-semibold text-skin-text border border-skin-icons"
+					id="btn"
+				>
+					<span><ion-icon name="sunny-outline"></ion-icon></span>/
+					<span><ion-icon name="moon-outline"></ion-icon></span>
+				</button>
+			</nav>
+
+			<section class="sec1 my-2 relative">
+				<div class="container mx-auto p-5 h-[40vh] flex md:flex-row flex-col">
+					<div
+						class="md:w-1/2 flex flex-col bg-gray-50 bg-opacity-20 p-10 rounded-md shadow-inner"
+					>
+						<p class="text-skin-head font-bold">Energies</p>
+						<h1 class="font-bold text-skin-text text-balance text-4xl">
+							An alternative Energy Source
+							<span
+								><ion-icon
+									name="play-circle-outline"
+									class="text-skin-head relative top-2 cursor-pointer"
+								></ion-icon
+							></span>
+						</h1>
+						<div class="flex flex-row my-6 space-x-3">
+							<p class="font-bold text-skin-text px-2">Solar Energy</p>
+							<p
+								class="border-l-4 border-l-skin-head text-skin-text px-1 text-balance"
+							>
+								Welcome to our website, where we are dedicated to promoting the
+								use and understanding of solar and natural energy!
+							</p>
+						</div>
+					</div>
+					<div
+						class="md:w-1/2 flex flex-row space-x-5 justify-end md:items-end py-3 px-2 md:static absolute -top-9 right-2"
+					>
+						<a
+							href="http://www.facebook.com"
+							class="text-skin-head h-3 w-3 rounded-sm"
+							><ion-icon name="logo-facebook"></ion-icon
+						></a>
+						<a
+							href="http://www.linkedin.com"
+							class="text-skin-head h-3 w-3 rounded-sm"
+							><ion-icon name="logo-linkedin"></ion-icon
+						></a>
+						<a
+							href="http://www.twitter.com"
+							class="text-skin-head h-3 w-3 rounded-sm"
+							><ion-icon name="logo-linkedin"></ion-icon
+						></a>
+						<a
+							href="http://www.instagram.com"
+							class="text-skin-head h-3 w-3 rounded-sm"
+							><ion-icon name="logo-instagram"></ion-icon
+						></a>
+					</div>
+				</div>
+			</section>
+
+			<!-- !cards sec -->
+			<section>
+				<div
+					class="container mx-auto grid md:grid-cols-3 grid-cols-1 md:my-5 p-5 gap-4 mt-48"
+				>
+					<div class="flex flex-col">
+						<p class="border-l-4 border-l-skin-head text-skin-text px-2 pb-3">
+							our vision
+						</p>
+						<p class="text-skin-text text-balance px-3">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+							ipsa earum nostrum minus necessitatibus temporibus assumenda
+							explicabo tempore, suscipit ullam.
+						</p>
+					</div>
+					<div class="flex flex-col">
+						<p class="border-l-4 border-l-skin-head text-skin-text px-2 pb-3">
+							our vision
+						</p>
+						<p class="text-skin-text text-balance px-3">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+							ipsa earum nostrum minus necessitatibus temporibus assumenda
+							explicabo tempore, suscipit ullam.
+						</p>
+					</div>
+					<div class="flex flex-col border-s-4 border-s-skin-head px-3">
+						<p class="text-skin-head">Main initiative</p>
+						<p class="text-skin-text font-bold text-2xl text-balance pb-3">
+							"Our Goal is To Change The Modern World Become Nature Friendly"
+						</p>
+						<p class="text-skin-text text-balance">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+							voluptas in ex eos facere officia nesciunt hic mollitia aperiam
+							corporis?
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- !section -->
+			<section class="sec">
+				<div
+					class="container mx-auto p-5 flex md:flex-row flex-col my-3 items-center"
+				>
+					<div class="md:w-1/2 flex flex-col">
+						<p class="text-skin-head font-semibold">About Energies</p>
+						<h2
+							class="font-bold text-skin-text text-balance md:text-left text-center text-2xl py-3"
+						>
+							We Are The Experts In The World Of Solar & Renewable Energy
+						</h2>
+						<p
+							class="text-skin-text md:text-left text-balance text-center pb-3"
+						>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							dignissimos perferendis doloremque illum unde corrupti ipsa
+							cupiditate quasi, quae blanditiis sequi libero dolor placeat!
+						</p>
+					</div>
+					<div class="md:w-1/2 grid md:grid-cols-2 grid-cols-1">
+						<div class="flex flex-col p-4 items-center">
+							<img
+								src="/asset/images/first.jpg"
+								alt=""
+								class="w-[90%] h-64 2"
+							/>
+							<p class="font-semibold text-skin-head text-center py-3">
+								Solar Energy
+							</p>
+							<p class="text-skin-text text-center text-balance pb-2">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Adipisci consectetur nemo possimus, beatae soluta quisquam?
+							</p>
+							<button
+								class="text-skin-text bg-head-buttonbg px-2 py-2 rounded-sm w-fit pb-2 hover:bg-head-hoverbg"
+							>
+								Learn more
+							</button>
+						</div>
+						<div
+							class="flex flex-col p-4 items-center border-e-4 border-e-skin-head border-b-4 border-b-skin-head"
+						>
+							<img
+								src="/asset/images/second.jpg"
+								alt=""
+								class="w-[90%] h-64 pb-2"
+							/>
+							<p class="text-skin-head font-semibold">Wind Energy</p>
+							<p
+								class="text-skin-text text-center text-balance pb-2 font-bold text-3xl py-2"
+							>
+								The most Powerful of them all
+							</p>
+							<p class="text-skin-text text-center">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+								reiciendis magnam earum quo quisquam?
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ? counter section -->
+			<div class="container mx-auto p-5 my-4">
+				<div class="grid grid-cols-2 md:grid-cols-4 md:gap-4 gap-6 p-3">
+					<div class="text-balance">
+						<p class="text-3xl text-skin-text text-center pb-2 font-bold">
+							400+
+						</p>
+						<p class="text-skin-head text-center font-bold truncate">
+							Young Employees
+						</p>
+					</div>
+					<div class="text-balance">
+						<p class="text-3xl text-skin-text text-center pb-2 font-bold">
+							2,600+
+						</p>
+						<p class="text-skin-head text-center font-bold truncate">
+							Projects Completed
+						</p>
+					</div>
+					<div class="text-balance">
+						<p class="text-3xl text-skin-text text-center pb-2 font-bold">
+							4,578+
+						</p>
+						<p class="text-skin-head text-center font-bold truncate">
+							Happy Customers
+						</p>
+					</div>
+					<div class="text-balance">
+						<p class="text-3xl text-skin-text text-center pb-2 font-bold">
+							389
+						</p>
+						<p class="text-skin-head text-center font-bold truncate">
+							Award Milestone
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- ! solutions section -->
+			<div class="container mx-auto p-5 mt-4">
+				<div class="text-center">
+					<p class="text-skin-head">renewable way</p>
+					<h2 class="font-bold text-2xl text-skin-text py-3">Our Solutions</h2>
+					<p class="text-skin-text pb-3">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+						soluta aliquid odio itaque architecto iusto molestiae commodi iure
+						corrupti optio.
+					</p>
+				</div>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+					<div
+						class="border p-5 text-balance rounded-md mt-2 border-skin-bordercol"
+					>
+						<span class="text-skin-head cursor-pointer"
+							><ion-icon name="albums-outline"></ion-icon
+						></span>
+						<p class="font-bold py-3 text-skin-text">Solar Eco-friendly</p>
+						<p class="text-skin-text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Eligendi, ad.
+						</p>
+					</div>
+					<div
+						class="border p-5 text-balance rounded-md mt-2 border-skin-bordercol"
+					>
+						<span class="text-skin-head cursor-pointer"
+							><i class="bi bi-sun"></i
+						></span>
+						<p class="font-bold py-3 text-skin-text">Solar Eco-friendly</p>
+						<p class="text-skin-text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Eligendi, ad.
+						</p>
+					</div>
+					<div
+						class="border p-5 text-balance rounded-md mt-2 border-skin-bordercol"
+					>
+						<span class="text-skin-head cursor-pointer"
+							><i class="bi bi-hand-index-thumb"></i
+						></span>
+						<p class="font-bold py-3 text-skin-text">Solar Eco-friendly</p>
+						<p class="text-skin-text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Eligendi, ad.
+						</p>
+					</div>
+					<div
+						class="border p-5 text-balance rounded-md mt-2 border-skin-bordercol"
+					>
+						<span class="text-skin-head cursor-pointer"
+							><ion-icon name="thunderstorm-outline"></ion-icon
+						></span>
+						<p class="font-bold py-3 text-skin-text">Solar Eco-friendly</p>
+						<p class="text-skin-text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Eligendi, ad.
+						</p>
+					</div>
+					<div
+						class="border p-5 text-balance rounded-md mt-2 border-skin-bordercol"
+					>
+						<span class="text-skin-head cursor-pointer"
+							><ion-icon name="earth-outline"></ion-icon
+						></span>
+						<p class="font-bold py-3 text-skin-text">Solar Eco-friendly</p>
+						<p class="text-skin-text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Eligendi, ad.
+						</p>
+					</div>
+
+					<div
+						class="border p-5 text-balance rounded-md mt-2 border-skin-bordercol"
+					>
+						<span class="text-skin-head cursor-pointer"
+							><ion-icon name="leaf-outline"></ion-icon
+						></span>
+						<p class="font-bold py-3 text-skin-text">Solar Eco-friendly</p>
+						<p class="text-skin-text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Eligendi, ad.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- ! section -->
+			<section>
+				<div class="container mx-auto p-5 flex flex-col md:flex-row mt-7">
+					<div
+						class="md:w-2/3 p-8 flex flex-col bg-gradient-to-r from-cyan-600 to-red-500"
+						id="hero"
+					>
+						<p class="text-skin-head">The Facts</p>
+						<p class="text-2xl text-skin-text font-bold pb-3">
+							Using Innovative & Natural Ways For Green Energy
+						</p>
+						<p
+							class="text-skin-extext text-balance border-s-4 border-s-skin-head px-1"
+						>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Accusantium aliquam dolore error totam doloribus fuga quos quasi
+							dolor omnis? Fugit!
+						</p>
+					</div>
+
+					<div class="grid grid-cols-2 px-4 py-5 md:gap-x-6 md:gap-y-7 gap-6">
+						<div class="text-balance text-center">
+							<p class="text-skin-text text-3xl font-bold">95.9%</p>
+							<p class="text-skin-head py-2">Turbine Energy</p>
+							<p class="text-skin-text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing.
+							</p>
+						</div>
+						<div class="text-balance text-center">
+							<p class="text-skin-text text-3xl font-bold">91.5%</p>
+							<p class="text-skin-head py-2">Sustainable System</p>
+							<p class="text-skin-text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing.
+							</p>
+						</div>
+						<div class="text-balance text-center">
+							<p class="text-skin-text text-3xl font-bold">95.5%</p>
+							<p class="text-skin-head py-2">Solar Panels</p>
+							<p class="text-skin-text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing.
+							</p>
+						</div>
+						<div class="text-balance text-center">
+							<p class="text-skin-text text-3xl font-bold">85.2%</p>
+							<p class="text-skin-head py-2">Renewable Energy</p>
+							<p class="text-skin-text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- !recent projects -->
+			<section>
+				<div class="container mx-auto p-5 mt-7">
+					<div class="text-center">
+						<p class="text-skin-head pb-3">Recent Projects</p>
+						<p class="text-2xl text-skin-text text-balance font-bold pb-2">
+							Our Latest Case Studies
+						</p>
+						<p class="text-skin-text pb-3">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+							omnis obcaecati magnam quaerat doloribus?
+						</p>
+					</div>
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+						<img
+							src="/asset/images/projects1.jpg"
+							alt=""
+							class="w-[100%] h-56 drop-shadow-md"
+						/>
+						<img
+							src="/asset/images/projects2.jpg"
+							alt=""
+							class="w-[100%] h-56 drop-shadow-md"
+						/>
+						<img
+							src="/asset/images/projects3.jpg"
+							alt=""
+							class="w-[100%] h-56 drop-shadow-md"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+		<script src="./src/main.js"></script>
+	</body>
+</html>

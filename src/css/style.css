@@ -1,41 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    :root{
-        --color-text-head:#E6C200;
-        --color-text-para:#CCCCCC;
-        --color-background:#000000;
-        --color-text-icons:#ffd700;
-        --color-border:#cccccc;
-        --color-hover-bg:#ceb637;
-    }
-    .class{
-        --color-border:#365486;
-        --color-text-head:#365486;
-        --color-text-para:#0F1035;
-        --color-background:#DCF2F1;
-        --color-text-icons:#000000;
-        --color-text-ex:#0f161f;
-        --color-hover-bg:#7FC7D9;
-    }
-    
+@layer base {
+	:root {
+		--color-text-head: #e6c200;
+		--color-text-para: #cccccc;
+		--color-background: #000000;
+		--color-text-icons: #ffd700;
+		--color-border: #cccccc;
+		--color-hover-bg: #ceb637;
+	}
+	.class {
+		--color-border: #365486;
+		--color-text-head: #365486;
+		--color-text-para: #0f1035;
+		--color-background: #dcf2f1;
+		--color-text-icons: #000000;
+		--color-text-ex: #0f161f;
+		--color-hover-bg: #7fc7d9;
+	}
 }
-.sec1{
-    background-image: url(/asset/images/background-image.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    border-radius: 10px;
-    /* padding-right: 20px; */
+.sec1 {
+	background-image: url(/asset/images/background-image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	/* padding-right: 20px; */
 }
 
-#hero{
-    background-image: url(/asset/images/wind-energy-7394705_1920.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#hero {
+	background-image: url(/asset/images/wind-energy-7394705_1920.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
